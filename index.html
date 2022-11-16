@@ -11,34 +11,42 @@
 </head>
 <body>
 <header class="mb-5">
-    <!--    <nav class="header__menu navbar navbar-expand-lg navbar-light border-bottom-5 border-secondary">-->
-    <!--        <div class="container">-->
-    <!--            <a class="" href="#">-->
-    <!--                <img alt="" height="65" src="img/logo.PNG" width="120">-->
-    <!--            </a>-->
-    <!--            <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"-->
-    <!--                    class="navbar-toggler"-->
-    <!--                    data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse" type="button">-->
-    <!--                <span class="navbar-toggler-icon"></span>-->
-    <!--            </button>-->
-    <!--            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">-->
-    <!--                <ul class="navbar-nav align-items-center">-->
-    <!--                    <li class="nav-item">-->
-    <!--                        <a class="nav-link" href="#">О компании</a>-->
-    <!--                    </li>-->
-    <!--                    <li class="nav-item">-->
-    <!--                        <a class="nav-link" href="#">Аукционы</a>-->
-    <!--                    </li>-->
-    <!--                    <li class="nav-item">-->
-    <!--                        <a class="nav-link" href="#">услуги</a>-->
-    <!--                    </li>-->
-    <!--                    <li class="nav-item">-->
-    <!--                        <a class="nav-link" href="#">Спецтехника</a>-->
-    <!--                    </li>-->
-    <!--                </ul>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </nav>-->
+        <nav class="header__menu navbar navbar-expand-lg navbar-dark border-bottom-5 border-secondary">
+            <div class="container">
+                <a class="" href="#">
+                    <img class="header__logo" src="img/logo.PNG"">
+                </a>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="header-nav__list navbar-nav align-items-center">
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="#about">О компании</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="#">Аукционы</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="#">Улуги</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="#contact">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__contacts">
+                    <div class="phone__block">
+                        <img class="phone__icon" src="img/call.svg">
+                        <p class="phone__phone mb-0">8(800) 550-16-25</p>
+                    </div>
+                    <p class="header__address">г.Владивосток, Ул.Авраменко 2</p>
+                </div>
+                <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler"
+                        data-bs-target="#navbarNavDropdown" data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            </div>
+        </nav>
     <div class="banner-area bg-dark d-flex">
         <div class="container d-flex">
             <div class="banner__content row d-flex">
@@ -580,7 +588,7 @@
         </div>
     </div>
 </section>
-<div class="why-to-choose-us-02 mb-5 p-5 bg-dark">
+<div id="about" class="why-to-choose-us-02 mb-5 p-5 bg-dark">
     <div class="container">
         <div class="row">
             <h1 class="mb-5 text-center">Почему выбирают нас</h1>
@@ -704,7 +712,7 @@
         </div>
     </div>
 </section>
-<section class="contact mb-5 bg-dark">
+<section id="contact" class="contact mb-5 bg-dark">
     <div class="container">
         <div class="row d-flex justify-content-between">
             <div class="col-x1-4 col-md-7 col-sm-12 p-5">
