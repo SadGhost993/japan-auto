@@ -988,6 +988,41 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 700;
 }
 
+.reviews{
+
+}
+
+.reviews__item{
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #e0e0e0;
+}
+
+.reviews__name{
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+
+.reviews__date{
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: 300;
+    color: #949494;
+}
+
+.reviews__text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.reviews__img{
+    margin-top: auto;
+
+    height: 125px;
+}
+
 .footer-area {
     padding-top: 70px
 }
